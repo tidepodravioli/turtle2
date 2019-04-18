@@ -1,0 +1,6 @@
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\bin\Debug\turtle2.exe.config
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\bin\Debug\turtle2.exe
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\bin\Debug\turtle2.pdb
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.csprojResolveAssemblyReference.cache
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.exe
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.pdb
