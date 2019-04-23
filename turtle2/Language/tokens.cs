@@ -42,7 +42,7 @@ namespace turtle2.Language
 	                Value = match.Value
 	            };
 	        }
-	        else
+	        else 
 	        {
 	            return new TokenMatch() { IsMatch = false};
 	        }
@@ -89,18 +89,37 @@ namespace turtle2.Language
 		private List<TokenDefinition> _tokenDefinitions = new List<TokenDefinition>();
 		public Tokenizer()
 		{
-			_tokenDefinitions.Add(new TokenDefinition(TokenType.Boolean, "^bool)"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Boolean, "^bool"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.BinaryValue, "^B[10]+"));
 			_tokenDefinitions.Add(new TokenDefinition(TokenType.CloseParenthesis, "^\\)"));
 			_tokenDefinitions.Add(new TokenDefinition(TokenType.Comma, "^,"));
-			_tokenDefinitions.Add(new TokenDefinition(TokenType.Console, "^console|^cout)"));
-			_tokenDefinitions.Add(new TokenDefinition(TokenType.Dot, "^."));
-			_tokenDefinitions.Add(new TokenDefinition(TokenType.Else, "^else)"));
-			_tokenDefinitions.Add(new TokenDefinition(TokenType.Equals, "^="));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Comment, "^//.+"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Console, "^console|^cout"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Decimal, "^decimal"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.DecimalValue, "^m[123456789.]+"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Dot, "^[.]"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Else, "^else"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Equals, "^=="));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.EqualSign, "^="));
 			_tokenDefinitions.Add(new TokenDefinition(TokenType.Exception, "^ex|^exception"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.GreaterThan, "^>"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.GreaterThanOrEqualTo, "^>="));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.HexValue, "^0x[1234567890abcdef]+"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.If, "^if"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Increment, "^[+]{2}"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Integer, "^int"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.IntegerValue, "^\\d+"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.LessThan, "^<"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.LessThanOrEqualTo, "^<="));
 			_tokenDefinitions.Add(new TokenDefinition(TokenType.Message, "^msg|^message"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.NotEqual, "^!="));
 			_tokenDefinitions.Add(new TokenDefinition(TokenType.OpenParenthesis, "^\\("));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Plus, "^\\+"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Semicolon, "^;"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Serial, "^serial"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.String, "^string"));
 			_tokenDefinitions.Add(new TokenDefinition(TokenType.StringValue, "^\"[^\"]*\""));
-			_tokenDefinitions.Add(new TokenDefinition(TokenType.Number, "^\\d+"));
+			_tokenDefinitions.Add(new TokenDefinition(TokenType.Word, "^[A-Za-z1-9_]+"));
 		}
 		
 		

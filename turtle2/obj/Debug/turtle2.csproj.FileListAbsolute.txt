@@ -4,3 +4,9 @@ D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\bin\Debug\turtl
 D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.csprojResolveAssemblyReference.cache
 D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.exe
 D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.pdb
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\bin\Debug\FastColoredTextBox.dll
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\bin\Debug\FastColoredTextBox.xml
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.projs.resources
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.results.resources
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.csproj.GenerateResource.Cache
+D:\Users\student\Documents\SharpDevelop Projects\turtle2\turtle2\obj\Debug\turtle2.console.resources
